@@ -8,9 +8,10 @@
 
             Employee employee2 = new Employee("pramindu", "vishwa", 28000.00);
 
-            employee1.print();
+            employee1.print(employee1.FirstName,employee1.LastName,employee1.BasicSalary);
          
 
         }
     }
 }
+
