@@ -8,13 +8,14 @@ namespace ConsoleApp1
 {
     internal class Employee
     {
-        public string FirstName {  get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
-        public double BasicSalary {  get; set; }
+        public double BasicSalary { get; set; }
 
-        public Employee(string afirstName, string aLastName, double aBasicSalary) {
+        public Employee(string afirstName, string aLastName, double aBasicSalary)
+        {
             FirstName = afirstName;
-            LastName=aLastName; 
+            LastName = aLastName;
             BasicSalary = aBasicSalary;
         }
         public void print(string afirstName, string aLastName, double aBasicSalary)
@@ -22,8 +23,9 @@ namespace ConsoleApp1
             Console.WriteLine($"Name: {afirstName} {aLastName} , Salary :{aBasicSalary}");
         }
 
-        
+
     }
 }
+
 
 
